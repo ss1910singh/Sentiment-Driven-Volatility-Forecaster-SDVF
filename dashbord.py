@@ -20,7 +20,7 @@ st.set_page_config(
 )
 
 setup_logging()
-CSV_DATA_DIR = "./Fetch_data/data"
+CSV_DATA_DIR = "./data&understand/data"
 os.makedirs(CSV_DATA_DIR, exist_ok=True)
 
 def format_change(change):
